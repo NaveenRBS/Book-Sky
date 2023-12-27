@@ -26,7 +26,7 @@ var change = document.getElementById("change")
 
 addbook.addEventListener("click",function(event){
     event.preventDefault()
-   
+   if(bookTitle.value !=  ""){
     var div = document.createElement("div") ;
     div.setAttribute("class","book-container") 
     div.innerHTML = `<h2>${bookTitle.value} </h2>
@@ -42,7 +42,7 @@ addbook.addEventListener("click",function(event){
     popupOverlay.style.display = "none" ;
     popupBox.style.display = "none" ;
 
-   }
+   }}
 )
 
 // used to delete the notes
