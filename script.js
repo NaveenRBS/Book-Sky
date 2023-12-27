@@ -32,7 +32,7 @@ addbook.addEventListener("click",function(event){
     div.innerHTML = `<h2>${bookTitle.value} </h2>
                      <h5>${bookAuthor.value}</h5> 
                     <p>${shortDescription.value}</p>
-                    <button type="button" onclick="deleteitem(event)">Delete</button>`
+                    <button type="button" class="delete" onclick="deleteitem(event)">Delete</button>`
     container.append(div) 
     // changed because of the placeholder is not showing , and the previously entered text is showing
     shortDescription.value = ""

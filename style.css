@@ -34,7 +34,7 @@ body{
     color:blueviolet;
 }
 
-.book-container button{
+.book-container .delete{
     color: black;
     background-color: blueviolet;
     border-radius: 10px;
@@ -45,6 +45,8 @@ body{
     border: none ;
     margin-top:10px ;
 }
+
+
 .add-button{
     background-color: blueviolet;
     color: black;
